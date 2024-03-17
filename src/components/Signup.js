@@ -35,6 +35,7 @@ export default function Signup(props) {
     }
 
     useEffect(function() {
+        console.log(api.url);
         setSignupInfo(prev => {
             return {
                 ...prev,
